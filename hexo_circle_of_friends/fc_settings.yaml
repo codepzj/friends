@@ -30,6 +30,8 @@ SETTINGS_FRIENDS_LINKS: {
     enable: true,
     json_api: "https://haohanxinghe.com/friends.json",
     list: [
+        ["崔亮的博客", "https://www.cuiliangblog.cn/", "https://oss.cuiliangblog.cn/image/logo.png","feed.xml"],
+        ["宇阳", "https://liuyuyang.net/", "https://q1.qlogo.cn/g?b=qq&nk=3311118881&s=640","/api/rss"]
         # 示例1：
         # ["贰猹の小窝", "https://noionion.top/", "https://pub-noionion.oss-cn-hangzhou.aliyuncs.com/head.jpg"],
         # ["Akilarの糖果屋", "https://akilar.top/", "https://akilar.top/images/headimage.png"],
