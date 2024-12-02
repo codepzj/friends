@@ -15,7 +15,7 @@
 #   - stellar：stellar主题
 # 支持配置多个友链页面并指定不同主题策略，每个用{}分隔，它们会被同时爬取，数据保存在一起。
 LINK: [
-     { link: "https://haohanxinghe.com/social/friends/", theme: "stellar" }
+
 ]
 
 # 配置项友链
@@ -28,14 +28,8 @@ LINK: [
 #       suffix：选填，自定义订阅后缀，主要针对不规范的网站订阅后缀，见示例2
 SETTINGS_FRIENDS_LINKS: {
     enable: true,
-    json_api: "",
+    json_api: "https://haohanxinghe.com/friends.json",
     list: [
-        ["张洪Heo", "https://blog.zhheo.com/", "https://bu.dusays.com/2022/12/28/63ac2812183aa.png","atom.xml"],
-        ["崔亮的博客", "https://www.cuiliangblog.cn/", "https://oss.cuiliangblog.cn/image/logo.png","feed.xml"],
-        ["杜老师说", "https://dusays.com/", "https://cdn.dusays.com//favicon.ico"],
-        ["xaoxuu", "https://xaoxuu.com/", "https://xaoxuu.com/assets/xaoxuu/avatar/rect-256@2x.png"],
-        ["Thun888", "https://blog.hzchu.top/", "https://blog.hzchu.top/img/avatar.webp"],
-        ["MC-Sep", "https://mc-sep.js.cool/", "https://mc-sep.js.cool/logo.png"],
         # 示例1：
         # ["贰猹の小窝", "https://noionion.top/", "https://pub-noionion.oss-cn-hangzhou.aliyuncs.com/head.jpg"],
         # ["Akilarの糖果屋", "https://akilar.top/", "https://akilar.top/images/headimage.png"],
